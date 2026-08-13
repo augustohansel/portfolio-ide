@@ -2,7 +2,7 @@
 
 Um portfólio pessoal interativo e responsivo, projetado para simular a interface e a experiência de uso do Visual Studio Code. Desenvolvido para apresentar meus projetos, habilidades e trajetória profissional de forma imersiva e criativa.
 
-🔗 **[Visualizar o Portfólio Online](https://portfolio-ide-preview.vercel.app/)** *(Adicione seu link de deploy aqui depois)*
+🔗 **[Visualizar o Portfólio Online](https://portfolio-ide-preview.vercel.app/)**
 
 
 ## ✨ Funcionalidades
