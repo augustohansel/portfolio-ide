@@ -1,5 +1,3 @@
-// src/components/ActivityBar.tsx
-import React from 'react';
 import { Files, Search, GitBranch, Settings } from 'lucide-react';
 
 interface ActivityBarProps {
@@ -11,7 +9,6 @@ export function ActivityBar({ toggleSidebar }: ActivityBarProps) {
     <div className="w-14 bg-[#21222c] flex flex-col items-center justify-between py-4 border-r border-[#191a21] shrink-0 z-30 relative">
       
       <div className="flex flex-col gap-6 w-full items-center">
-        {/* Adicionamos o onClick aqui para disparar o toggle */}
         <div onClick={toggleSidebar} className="w-full flex justify-center border-l-2 border-[#ff79c6] cursor-pointer relative group">
           <Files className="w-7 h-7 text-[#ff79c6]" strokeWidth={1.5} />
         </div>

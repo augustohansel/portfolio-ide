@@ -1,5 +1,4 @@
 // src/components/Sidebar.tsx
-import React from 'react';
 import { ChevronDown, FileCode2, FileJson, FileText } from 'lucide-react';
 
 interface SidebarProps {
@@ -10,7 +9,6 @@ interface SidebarProps {
 
 export function Sidebar({ arquivoAtivo, setArquivoAtivo, sidebarAberta }: SidebarProps) {
   return (
-    // ADICIONADO AQUI: left-14 (para mobile) e sm:left-0 (para PC)
     <div className={`${sidebarAberta ? 'flex' : 'hidden'} w-64 bg-[#21222c] border-r border-[#191a21] flex-col shrink-0 select-none absolute left-14 sm:left-0 sm:relative z-20 h-full`}>
       
       <div className="px-4 py-3 text-[11px] font-semibold tracking-wider text-[#6272a4] uppercase">
