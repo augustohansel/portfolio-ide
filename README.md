@@ -1,32 +1,26 @@
-# React + TypeScript + Vite
+# Portfólio IDE - Augusto Hansel
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Um portfólio pessoal interativo e responsivo, projetado para simular a interface e a experiência de uso do Visual Studio Code. Desenvolvido para apresentar meus projetos, habilidades e trajetória profissional de forma imersiva e criativa.
 
-Currently, two official plugins are available:
+🔗 **[Visualizar o Portfólio Online](https://portfolio-ide-preview.vercel.app/)** *(Adicione seu link de deploy aqui depois)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+## ✨ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interface Realista:** Simulação fiel da interface do VS Code, estilizada com a paleta de cores oficial do tema **Dracula**.
+- **Explorador de Arquivos Funcional:** Navegação completa através da *Sidebar*. Clique nos arquivos para abrir diferentes seções do portfólio.
+- **Sistema de Abas (Tabs):** Abas dinâmicas que abrem, alternam e fecham exatamente como em um editor de código real.
+- **Visualizador de PDF Integrado:** Leitura do currículo em PDF nativamente dentro da área do editor usando `iframe`.
+- **Totalmente Responsivo:** A *Sidebar* flutua e se oculta automaticamente em dispositivos móveis, garantindo leitura perfeita do código e navegação fluida em telas pequenas.
+- **Dashboard de Início:** Tela inicial amigável com atalhos rápidos para recrutadores e visitantes não técnicos.
 
-## Expanding the Oxlint configuration
+## 🚀 Tecnologias Utilizadas
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Este projeto foi construído com as seguintes tecnologias:
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+- **[React](https://reactjs.org/)** + **[Vite](https://vitejs.dev/)** - Para uma renderização rápida e componentização eficiente.
+- **[TypeScript](https://www.typescriptlang.org/)** - Tipagem estática para um código mais seguro e escalável.
+- **[Tailwind CSS (v3)](https://tailwindcss.com/)** - Estilização utilitária super rápida, ideal para construir o layout complexo da IDE.
+- **[Lucide React](https://lucide.dev/)** - Conjunto de ícones minimalistas e bonitos para a interface da IDE.
+- **[React Icons](https://react-icons.github.io/react-icons/)** - Ícones de marcas (GitHub, LinkedIn) via FontAwesome.
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
