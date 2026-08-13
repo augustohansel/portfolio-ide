@@ -1,7 +1,4 @@
-// src/components/StatusBar.tsx
-import React from 'react';
 import { GitBranch, CheckCheck, Bell } from 'lucide-react';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export function StatusBar() {
   return (
