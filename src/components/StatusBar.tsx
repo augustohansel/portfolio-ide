@@ -16,7 +16,7 @@ export function StatusBar() {
       <div className="flex items-center gap-4">
         <span className="cursor-pointer hover:bg-[#ff79c6] px-1 rounded transition-colors hidden sm:block">UTF-8</span>
         <span className="cursor-pointer hover:bg-[#ff79c6] px-1 rounded transition-colors hidden sm:block">TypeScript JSX</span>
-        <span className="cursor-pointer hover:bg-[#ff79c6] px-1 rounded transition-colors">Santa Maria, RS</span>
+        <span className="cursor-pointer hover:bg-[#ff79c6] px-1 rounded transition-colors">Santa Maria, RS, Brasil</span>
         <Bell className="w-3 h-3 cursor-pointer hover:text-white" />
       </div>
     </div>
